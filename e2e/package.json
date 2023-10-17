@@ -1,0 +1,22 @@
+{
+  "name": "@microrealestate/e2e",
+  "version": "1.0.0",
+  "description": "MicroRealEstate e2e tests",
+  "private": true,
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run --headed --config video=false",
+    "cypress:ci": "cypress run --config video=false",
+    "lint": "eslint .",
+    "format": "prettier --write '**/*.{js,jsx,ts,tsx,json,css}'"
+  },
+  "author": "Camel Aissani",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "12.8.1",
+    "dotenv": "16.0.1",
+    "dotenv-expand": "8.0.3",
+    "i18next": "21.8.14",
+    "moment": "2.29.4"
+  }
+}
